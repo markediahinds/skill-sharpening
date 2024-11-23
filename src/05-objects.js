@@ -155,7 +155,7 @@ function addKeyValuePairToObject(object, key, val) {
  *  //> { right: false }
  */
 function deleteKeyFromObject(object, key) {
-  delete object[key] // this is deleting the val which in returns deletes the key as well?
+  delete object[key] // this deletes the val which in returns deletes the key as well?
   return object
 }
 
